@@ -21,6 +21,7 @@ Topics:
 
 * You'll notice we've already installed react-router-dom for you.
 * `import` your BrowserRouter as Router inside your `index.js` file.
+    import { BrowserRouter as Router } from "react-router-dom";
 * Wrap your `<App />` component that you're passing to `ReactDOM.render()` with your new `Router` component.
 * open up your chrome `REACT DEV TOOLS` and notice your app is now all wrapped in `BrowserRouter`
 * inside the `REACT DEV TOOLS` expand `<BrowserRouter>` and highlight `<Router>` and notice that here is a `"history"` object on props and a `"match"` object on its state. These two objects are how all of our Router is going to work. 
